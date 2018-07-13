@@ -1,0 +1,26 @@
+Default Server:  UnKnown
+Address:  192.168.43.1
+
+> www.google.com
+Server:  UnKnown
+Address:  192.168.43.1
+
+Non-authoritative answer:
+Name:    www.google.com
+Addresses:  2404:6800:4007:810::2004
+          74.125.68.106
+          74.125.68.104
+          74.125.68.105
+          74.125.68.103
+          74.125.68.99
+          74.125.68.147
+
+> www.facebook.com
+Server:  UnKnown
+Address:  192.168.43.1
+
+Non-authoritative answer:
+Name:    star-z-mini.c10r.facebook.com
+Addresses:  2a03:2880:f137:87:face:b00c:0:50fb
+          157.240.23.39
+Aliases:  www.facebook.com
