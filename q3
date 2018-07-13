@@ -1,0 +1,20 @@
+import tweepy
+import textblob
+from textblob import TextBlob
+
+consumer_key='F9irGdfS3md9OlxOa6EzNSZSy'
+consumer_secret='Ague2aSbOKtOBFL5JGpTAOMuIa74VIrMBytdu90K7hAUuVw6XP'
+
+
+access_token='1017630731554652160-29kpUoahhS761linrbqgfbaCMPgo2E'
+access_token_secret='H0NLzg3JnO36AXhEyNjDpEIELExBwz1qmvPiIYntP9401'
+
+oauth=tweepy.OAuthHandler(consumer_key, consumer_secret)
+
+oauth.set_access_token(access_token, access_token_secret)
+
+api=tweepy.API(oauth)
+
+public_tweets= api.search("#bollywood")
+
+print(public_tweets)
